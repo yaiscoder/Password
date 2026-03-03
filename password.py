@@ -32,7 +32,7 @@ if t_mayuscula and t_numero and t_c_especial:
     print("Usted puede ingresar")
 else:
     print("Su contraseña debe tener:")
-    print("8 caracteres")
+    print("Minimo 8 caracteres")
     print("1 mayúscula")
     print("1 número")
     print("1 carácter especial")
