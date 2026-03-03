@@ -11,7 +11,7 @@ correo = input("Ingrese su correo")
 #Programa
 
 for email in correo:
-    if email == "@" and ".":
+    if email == "@" and "." in correo:
         arroba = True
 
 while len (password) < 8:
